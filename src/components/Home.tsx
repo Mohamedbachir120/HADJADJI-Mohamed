@@ -9,7 +9,10 @@ function Home() {
   return (
     <div className='home' id="home">
     <Header />
+    
     <h1 className='hello' data-aos="zoom-in" data-aos-duration="1500">HELLO</h1>
+    <img src={mohamed} className="d-md-none" style={{"maxHeight":"40vh"}} alt='HADJADJI Mohamed bachir'/>
+
     <div className='introduction d-flex flex-column align-item-start' data-aos="fade-up"  data-aos-duration="1500">
     <h1 className='text-start text-white light-weight'>I'm</h1>
     <h1 className='text-start text-white'><span className='light-weight'>Mohamed Bachir</span>  HADJADJI</h1>
@@ -19,7 +22,7 @@ function Home() {
      <FontAwesomeIcon icon={faCloudArrowDown}/>
      &nbsp; Download CV</a>
     </div>
-     <img src={mohamed} className="picture" alt='HADJADJI Mohamed bachir'/>
+     <img src={mohamed} className="picture d-none d-md-block" alt='HADJADJI Mohamed bachir'/>
      </div>
   )
 }

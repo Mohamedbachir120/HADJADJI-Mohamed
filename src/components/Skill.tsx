@@ -8,8 +8,8 @@ const  Skill:React.FC<{data:{title:string,mark:number}}> = ({data}) => {
        <div className='col-9 d-flex flex-row justify-content-start'>
        {
         tab.map((e)=>{
-            if(e < data.mark) return (<div className='circle-enabled bg-violet mx-1'></div>)
-            else return (<div className='circle-disabled bg-dark mx-1'></div>)
+            if(e < data.mark) return (<div className='circle-enabled bg-violet mx-1' key={e+data.title}></div>)
+            else return (<div key={e+data.title} className='circle-disabled bg-dark mx-1'></div>)
         })
        } 
        </div>

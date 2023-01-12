@@ -23,32 +23,32 @@ function Footer() {
         <div className="col-3">
           <h5 className='text-light'>Quick links</h5>
           <ul className='list-unstyled'>
-            <li> <a href="#home" className='text-violet' style={{"text-decoration":"none"}}>Home</a> </li>
-            <li> <a href="#about" className='text-white' style={{"text-decoration":"none"}}>About</a> </li>
-            <li> <a href="#services" className='text-white' style={{"text-decoration":"none"}}>Services</a> </li>
-            <li> <a href="#skill" className='text-white' style={{"text-decoration":"none"}}>Skill</a> </li>
-            <li> <a href="#portfolio" className='text-white' style={{"text-decoration":"none"}}>Portfolio</a> </li>
-            <li> <a href="#project" className='text-white' style={{"text-decoration":"none"}}>Projects</a> </li>
+            <li> <a href="#home" className='text-violet' style={{"textDecoration":"none"}}>Home</a> </li>
+            <li> <a href="#about" className='text-white' style={{"textDecoration":"none"}}>About</a> </li>
+            <li> <a href="#services" className='text-white' style={{"textDecoration":"none"}}>Services</a> </li>
+            <li> <a href="#skill" className='text-white' style={{"textDecoration":"none"}}>Skill</a> </li>
+            <li> <a href="#portfolio" className='text-white' style={{"textDecoration":"none"}}>Portfolio</a> </li>
+            <li> <a href="#project" className='text-white' style={{"textDecoration":"none"}}>Projects</a> </li>
          
           </ul>
         </div>
         <div className="col-3">
           <h5 className='text-light'>Services</h5>
           <ul className='list-unstyled text-center'>
-            <li> <a href="##" className='text-white' style={{"text-decoration":"none"}}>Frontend Development</a> </li>
-            <li> <a href="##" className='text-white' style={{"text-decoration":"none"}}>Backend Development</a> </li>
-            <li> <a href="##" className='text-white' style={{"text-decoration":"none"}}>Database Adminstration</a> </li>
-            <li> <a href="##" className='text-white' style={{"text-decoration":"none"}}>Software Design</a> </li>
-            <li> <a href="##" className='text-white' style={{"text-decoration":"none"}}>Mobile Development</a> </li>
+            <li> <a href="##" className='text-white' style={{"textDecoration":"none"}}>Frontend Development</a> </li>
+            <li> <a href="##" className='text-white' style={{"textDecoration":"none"}}>Backend Development</a> </li>
+            <li> <a href="##" className='text-white' style={{"textDecoration":"none"}}>Database Adminstration</a> </li>
+            <li> <a href="##" className='text-white' style={{"textDecoration":"none"}}>Software Design</a> </li>
+            <li> <a href="##" className='text-white' style={{"textDecoration":"none"}}>Mobile Development</a> </li>
          
           </ul>
         </div>
         <div className="col-3">
           <h5 className='text-light'>Contact</h5>
           <ul className='list-unstyled text-center'>
-            <li> <a href="##" className='text-white' style={{"text-decoration":"none"}}>Bouchaoui 02 N° 35  ,Chéraga Algiers</a> </li>
-            <li> <a href="##" className='text-white' style={{"text-decoration":"none"}}>Phone : +213 696 930 704  / <br /> +213 540 796 061</a> </li>
-            <li> <a href="##" className='text-white' style={{"text-decoration":"none"}}>Email : mohamedbhadjadji@gmail.com </a> </li>
+            <li> <a href="##" className='text-white' style={{"textDecoration":"none"}}>Bouchaoui 02 N° 35  ,Chéraga Algiers</a> </li>
+            <li> <a href="##" className='text-white' style={{"textDecoration":"none"}}>Phone : +213 696 930 704  / <br /> +213 540 796 061</a> </li>
+            <li> <a href="##" className='text-white' style={{"textDecoration":"none"}}>Email : mohamedbhadjadji@gmail.com </a> </li>
            
           </ul>
         </div>

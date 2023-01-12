@@ -19,13 +19,13 @@ function App() {
   return (
     <div className="App">
           <Home  />
-          <About />
+          {/* <About />
           <Services />
           <Skills />
           <Portfolio />
           <Project />
           <Contact />
-          <Footer />
+          <Footer /> */}
     </div>  
   )
 }
