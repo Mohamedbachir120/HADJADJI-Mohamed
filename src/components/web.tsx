@@ -17,60 +17,60 @@ import bbc from "./../assets/BBC.png"
 function web() {
   return (
     <div className='d-flex flex-row flex-wrap justify-content-center'>
-         <div className='col-5 m-2'>
-        <img src={DBManagement} className="rounded" alt="DB management" />
+         <div className='col-md-5 col-sm-10 m-2'>
+        <img src={DBManagement} className="rounded" loading="lazy" alt="DB management" />
 
         </div>
-        <div className='col-5 m-2'>
-        <img src={bbc} className="rounded" alt="BBC" />
+        <div className='col-md-5 col-sm-10 m-2'>
+        <img src={bbc} className="rounded" loading="lazy" alt="BBC" />
 
         </div>
-        <div className='col-5 m-2 py-2'>
-            <img src={doctym_web} className="rounded" alt="Doctym" />
+        <div className='col-md-5 col-sm-10 m-2 py-2'>
+            <img src={doctym_web} className="rounded" loading="lazy" alt="Doctym" />
 
         </div>
-        <div className='col-5 m-2 py-2'>
+        <div className='col-md-5 col-sm-10 m-2 py-2'>
            <img src={sarlaton} className="rounded" alt="SarlAton" />
 
         </div>
-        <div className='col-5 m-2'>
+        <div className='col-md-5 col-sm-10 m-2'>
         <img src={zoumi_web} className="rounded" alt="Zoumi web" />
 
         </div>
-        <div className='col-5 m-2 '>
-            <img src={sgh} className="rounded" alt="Saudi german healt" />
+        <div className='col-md-5 col-sm-10 m-2 '>
+            <img src={sgh} className="rounded" loading="lazy" alt="Saudi german healt" />
 
         </div>
     
       
-        <div className='col-5 m-2'>
-        <img src={usthb_elit} className="rounded" alt="Usthb elite" />
+        <div className='col-md-5 col-sm-10 m-2'>
+        <img src={usthb_elit} className="rounded" loading="lazy" alt="Usthb elite" />
 
         </div>
-        <div className='col-5 m-2 py-2'>
-           <img src={Koudami} className="rounded" alt="Koudami" />
+        <div className='col-md-5 col-sm-10 m-2 py-2'>
+           <img src={Koudami} className="rounded" loading="lazy" alt="Koudami" />
 
         </div>
-        <div className='col-5 m-2'>
-            <img src={zimail} className="rounded" alt="Zimail" />
+        <div className='col-md-5 col-sm-10 m-2'>
+            <img src={zimail} className="rounded" loading="lazy" alt="Zimail" />
         </div>
-        <div className='col-5 m-2 py-2'>
-           <img src={Python_courses} className="rounded" alt="Python courses" />
+        <div className='col-md-5 col-sm-10 m-2 py-2'>
+           <img src={Python_courses} className="rounded" loading="lazy" alt="Python courses" />
 
         </div>
       
-        <div className='col-5 m-2'>
-            <img src={naftal} className="rounded" alt="Naftal" />
+        <div className='col-md-5 col-sm-10 m-2'>
+            <img src={naftal} className="rounded" loading="lazy" alt="Naftal" />
         </div>
-        <div className='col-5 m-2 py-2'>
-           <img src={calculator} className="rounded" alt="Calculator" />
+        <div className='col-md-5 col-sm-10 m-2 py-2'>
+           <img src={calculator} className="rounded" loading="lazy" alt="Calculator" />
 
         </div>
-        <div className='col-5 m-2'>
-            <img src={sudoku} className="rounded" alt="Sudoku" />
+        <div className='col-md-5 col-sm-10 m-2'>
+            <img src={sudoku} className="rounded" loading="lazy" alt="Sudoku" />
         </div>
-        <div className='col-5 m-2 py-2'>
-           <img src={webCourse} className="rounded" alt="Web courses" />
+        <div className='col-md-5 col-sm-10 m-2 py-2'>
+           <img src={webCourse} className="rounded" loading="lazy" alt="Web courses" />
 
         </div>
     </div>

@@ -11,6 +11,7 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Project from './components/Project';
+import BottomBar from './components/BottomBar';
 
 function App() {
   useEffect(() => {
@@ -19,13 +20,14 @@ function App() {
   return (
     <div className="App">
           <Home  />
-          {/* <About />
+          <About />
           <Services />
           <Skills />
-          <Portfolio />
+         <Portfolio />
           <Project />
-          <Contact />
-          <Footer /> */}
+           <Contact />
+           <Footer />
+           <BottomBar />
     </div>  
   )
 }
