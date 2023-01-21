@@ -4,10 +4,11 @@ import { Button } from 'react-bootstrap';
 import { useRef } from 'react';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FaGlobe } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 function Header() {
   const sideBar = useRef();
-  const {t} = useTranslation();
+  const {t,i18n} = useTranslation();
   return (
     
     <div className='d-flex flex-row justify-content-between header align-items-center'>
@@ -23,8 +24,13 @@ function Header() {
 
         </ul>
         </div>
-        <div className=' '>
-            <Button>{t('Hire Me')}</Button> 
+        <div className='fs-5'>
+            <Button>{t('Hire Me')}</Button>
+            <Button className='d-inline m-3 bg-dark' onClick={()=>{
+              i18n.changeLanguage(i18n.language == "fr" ? 'en' : "fr");
+              localStorage.setItem('language', i18n.language);
+            }}><FaGlobe /></Button> 
+       
         </div>
        
    
