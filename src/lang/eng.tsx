@@ -79,7 +79,9 @@ const  en = {
     "Backend Development":"Backend Development",
     "Software Design":"Software Design",
     "Inspired by Patrick james":"Inspired by Patrick james",
-    "All Right Reserved":"All Right Reserved"
+    "All Right Reserved":"All Right Reserved",
+    "Develop Mobile applications":"Develop Mobile applications",
+    "From AUGUST 2021 till MAY 2022":"From AUGUST 2021 till MAY 2022"
 
 
 

@@ -45,6 +45,21 @@ function About() {
             </div>
             </div>
             <div className={active!= "education" ? "d-none" : "mx-2 "}>
+                    <h5 className='text-start bg-violet-gradient w-100 p-2 rounded'>LEARNEO</h5>
+                    <h5 className='text-start  text-violet'>{t('FORTINET')}</h5>
+                    <p className='text-start text-light'>
+                        {t('NSE 7  SD-WAN in 2022')}
+                    </p>
+                    <h5 className='text-start bg-violet-gradient w-100 p-2 rounded'>LEARNEO</h5>
+                    <h5 className='text-start  text-violet'>{t('FORTINET')}</h5>
+                    <p className='text-start text-light'>
+                        {t('NSE 6 FortiAuthenticator in 2023')}
+                    </p>
+                    <h5 className='text-start bg-violet-gradient w-100 p-2 rounded'>LEARNEO</h5>
+                    <h5 className='text-start  text-violet'>{t('FORTINET')}</h5>
+                    <p className='text-start text-light'>
+                        {t('NSE 6 FortiSwitch in 2022')}
+                    </p>
                     <h5 className='text-start bg-violet-gradient w-100 p-2 rounded'>USTHB</h5>
                     <h5 className='text-start  text-violet'>{t('MASTER DEGREE')}</h5>
                     <p className='text-start text-light'>
@@ -60,6 +75,7 @@ function About() {
                     <p className='text-start text-light'>
                     {t('Obtained in 2019')}
                     </p>
+
             </div>
             <div className={active!= "experience" ? "d-none" : "sized-card" }>
                     <div className='d-flex flex-row flex-wrap justify-content-start'>
@@ -98,7 +114,18 @@ function About() {
                                <li>{t('Teach HTML / CSS / JS lessons')}</li>
                            
                         </ul>
-                            </div>
+                        <h5 className='text-start bg-violet w-100 p-2 rounded'>FB TECHNOLOGIES</h5>
+                        <h5 className='text-start  text-violet'>{t('INTERNSHIP')}</h5>
+                        <p className='text-start text-light'>
+                        {t('From AUGUST 2021 till MAY 2022')}
+                  
+
+                        </p>
+                        <ul>
+                               <li>{t('Develop Mobile applications')}</li>
+                           
+                        </ul>
+                        </div>
                         <div className='col-md-5 col-sm-12 mx-2'>
                         
                         <h5 className='text-start bg-violet w-100 p-2 rounded'>NAFTAL</h5>

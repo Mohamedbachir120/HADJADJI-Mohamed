@@ -80,7 +80,7 @@ const  Skills:React.FC =() => {
     <div className={active== "Databases" ?'d-flex flex-column align-items-center mb-5':"d-none"}>
         <Skill  data={{title:"MYSQL",mark:9}}/>
         <Skill  data={{title:"ORACLE",mark:9}}/>
-        <Skill  data={{title:"SQL Server",mark:8}}/>
+        <Skill  data={{title:"SQL Server",mark:9}}/>
         <Skill  data={{title:"SQLITE",mark:8}}/>
 
     </div>
@@ -95,6 +95,9 @@ const  Skills:React.FC =() => {
     <div className={active== "TOOLS" ?'d-flex flex-column align-items-center mb-5':"d-none"}>
         <Skill  data={{title:"POSTMAN",mark:9}}/>
         <Skill  data={{title:"GIT",mark:9}}/>
+        <Skill  data={{title:"GITLAB",mark:8}}/>
+        <Skill  data={{title:"DOCKER",mark:8}}/>
+
         <Skill  data={{title:"Android studio",mark:8}}/>
         <Skill  data={{title:"ZABBIX",mark:8}}/>
 

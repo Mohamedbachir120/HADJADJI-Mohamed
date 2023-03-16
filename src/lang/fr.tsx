@@ -50,7 +50,7 @@ const  fr = {
     "From May 2022 till September 2022":"De mai 2022 à septembre 2022",
     "Develop Web applications using Laravel / React":"Développer des applications Web avec Laravel / React",
     "Develop Mobile applications using react-native":"Développer des applications mobiles en utilisant react-native",
-    "From September 2022 till Now":" De septembre 2022 à maintenant",
+    "From September 2022 till Now":" De septembre 2022 à ce jour",
     "Develop Mobile applications using flutter":"Développer des applications mobiles à l'aide de flutter",
     "Database Monitoring using zabbix":"Surveillance des bases de données à l'aide de zabbix",
     "Mobile Development":"Développement mobile",
@@ -79,7 +79,11 @@ const  fr = {
     "Backend Development":"Dévelopment Backend ",
     "Software Design":"Architecture Logiciel",
     "Inspired by Patrick james":"Inspiré par Patrick james",
-    "All Right Reserved":"Tous droits réservés"
+    "All Right Reserved":"Tous droits réservés",
+    "Develop Mobile applications":"Développer des Applications Mobiles",
+    "From AUGUST 2021 till MAY 2022":"D'Août 2021 jusqu'à mai 2022"
+
+
 
 
 
